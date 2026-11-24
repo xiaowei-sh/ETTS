@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               norm_ias   R-squared:                       0.553
+Model:                            OLS   Adj. R-squared:                  0.553
+Method:                 Least Squares   F-statistic:                     949.4
+Date:                Sat, 24 Oct 2026   Prob (F-statistic):               0.00
+Time:                        23:54:00   Log-Likelihood:                 11374.
+No. Observations:                2303   AIC:                        -2.274e+04
+Df Residuals:                    2299   BIC:                        -2.272e+04
+Df Model:                           3                                         
+                                      
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          0.0004   4.52e-05      8.444      0.000       0.000       0.000
+mei_norm       0.0685      0.001     53.207      0.000       0.066       0.071
+mei_market    -0.0003      0.000     -0.686      0.493      -0.001       0.000
+mei_strat      0.0016      0.001      2.016      0.044    4.31e-05       0.003
+==============================================================================
+Omnibus:                     2384.746   Durbin-Watson:                   2.035
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):           305295.674
+Skew:                           4.775   Prob(JB):                         0.00
+Kurtosis:                      58.591   Cond. No.                         35.7
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
