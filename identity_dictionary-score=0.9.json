@@ -1,0 +1,49 @@
+{
+    "threshold": 0.9,
+    "topn": 20,
+    "normative": [
+        "democracy",
+        "freedom",
+        "human_rights",
+        "multilateralism",
+        "norms",
+        "rulesbased"
+    ],
+    "market": [
+        "curbed",
+        "deviation",
+        "distorting",
+        "distortive",
+        "evidence_suggests",
+        "external_pressure",
+        "externality",
+        "fair_trade",
+        "intact",
+        "investment",
+        "labour_environmental",
+        "labour_mobility",
+        "level_playing_field",
+        "liberalise",
+        "liberalization",
+        "loosening",
+        "market",
+        "market_economy",
+        "predictability",
+        "reaping",
+        "rebalancing_economy",
+        "relaxed",
+        "selectively",
+        "strong_incentive",
+        "tighter",
+        "trade",
+        "traderelated"
+    ],
+    "strategic": [
+        "autonomy",
+        "geopolitical",
+        "resilience",
+        "security",
+        "sovereignty",
+        "strategic_autonomy"
+    ]
+}

@@ -127,7 +127,7 @@ yearly_strat = df.groupby("year")[[f"mei_strat_{w}" for w in WINDOWS]].mean()
 plt.figure(figsize=(10,6))
 for w in WINDOWS:
     plt.plot(yearly_norm.index, yearly_norm[f"mei_norm_{w}"], marker='o', label=f"±{w} words")
-plt.title("MEI by Window Size")
+plt.title("Normative MEI by Window Size")
 plt.xlabel("Year")
 plt.ylabel("Mean MEI")
 plt.legend()
